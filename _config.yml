@@ -5,4 +5,14 @@ theme: just-the-docs
 url: https://ubiqui-fi.github.io/docs/
 
 aux_links:
-  Github: https://github.com/ubiqui-fi
+  Ubiqui-fi on Github: https://github.com/ubiqui-fi
+
+color_scheme: "dark"
+
+last_edit_timestamp: true
+last_edit_time_format: "%b %e, %Y at %I:%M %p"
+
+gh_edit_link: true
+gh_edit_repository: https://ubiqui-fi.github.io/docs/
+gh_edit_branch: main
+gh_edit_view_mode: tree
