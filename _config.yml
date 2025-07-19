@@ -1,5 +1,5 @@
 title: Ubiqui-fi Docs
-description: Developer documentation for Ubiqui-fi products.
+description: Developer documentation for &NAME products.
 theme: just-the-docs
 
 url: https://ubiqui-fi.github.io/docs/
@@ -16,3 +16,16 @@ gh_edit_link: true
 gh_edit_repository: https://ubiqui-fi.github.io/docs/
 gh_edit_branch: main
 gh_edit_view_mode: tree
+
+collections:
+  newtab:
+    output: true
+  website:
+    output: true
+
+just_the_docs:
+  collections:
+    newtab:
+      name: New Tab
+    website:
+      name: Website
