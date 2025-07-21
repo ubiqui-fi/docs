@@ -9,10 +9,7 @@ nav_order: 3
 
 #### TABLE OF CONTENTS
 {: .no_toc }
-1. Design your widget
-2. Create your widget using the base component
-3. Register your widget
-4. Create and add your widget's skeletons and preview
+1. 
 {:toc}
 
 ## Design your widget
@@ -20,7 +17,7 @@ So you want to create a widget, huh?
 
 Your first step is to design what you want your new widget to look like and its behavior. It's a good idea to use software like Figma to do so. Make sure to design your widget to the correct dimensions.
 
-<img src="/docs/assets/img/sizing_guide.png" />
+<img src="../assets/img/sizing_guide.png" />
 
 ## Create your widget using the base component
 
@@ -70,11 +67,11 @@ Good news - there's no coding for this part. Bad news - you need to be very prec
 
 First things first, let's get your widget previews. Start by setting up your widgets how a user might use them - configure them so they're showing useful data. Repeat this for all the possible sizes the widget could be.
 
-<img src="/docs/assets/img/example_screenshot_setup.png">
+<img src="../assets/img/example_screenshot_setup.png">
 
 Next, right click on the outer edge of one of your widgets and open inspect element on it. Head over to the inspector and ensure the `Card` element is selected. Then, right click it and click **Screenshot Node**. 
 
-<img src="/docs/assets/img/example_screenshot_inspect.png">
+<img src="../assets/img/example_screenshot_inspect.png">
 
 Your browser should take a screenshot of exactly just your widget. We'll use this to show users exactly how the widget looks in use. 
 
@@ -92,7 +89,7 @@ Unfortunately, there's no easy way to automatically generate skeletons based on 
 
 Start by importing your previews into a design software such as Figma. Then, draw elements over your preview, such as the card background and title. Next, block out information into rectangles with a fill of `#000000` and `10%` opacity. 
 
-<img src="/docs/assets/img/example_wireframe.png">
+<img src="../assets/img/example_wireframe.png">
 
 Once you have the key information blocked out, we need to export our skeleton as an svg. **We want to export only the skeleton rectangles, not the widget's background nor title.**
 
