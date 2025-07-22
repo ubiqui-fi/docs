@@ -79,7 +79,7 @@ Next, we'll add in all our content and styling.
         flex-direction: column;
         align-items: center;
         height: 100%;
-        width: 100%;
+        max-width: 100%;
         position: relative;
         overflow: hidden;
         border-radius: 6px;
@@ -88,7 +88,7 @@ Next, we'll add in all our content and styling.
     .uw-container-medium {
         display: flex;
         height: 100%;
-        width: 100%;
+        max-width: 100%;
         border-radius: 6px;
         position: relative;
         overflow: hidden;
@@ -110,7 +110,7 @@ Next, we'll add in all our content and styling.
     }
 
     .uw-logo {
-        width: 50px;
+        max-width: 50px;
         margin: 10px;
     }
 
@@ -157,8 +157,8 @@ Next, we'll add in all our content and styling.
 And with this we end up with a nice result!
 
 <div style="display: flex;">
-    <img src="../assets/img/example_widget_small.png" style="width: 250px;">
-    <img src="../assets/img/example_widget_medium.png" style="width: 500px; margin-left: 15px;">
+    <img src="../assets/img/example_widget_small.png" style="max-width: 250px;">
+    <img src="../assets/img/example_widget_medium.png" style="max-width: 510px; margin-left: 15px;">
 </div>
 
 As you can see, the content is different for the two sizes. Neat!
@@ -174,7 +174,7 @@ Next, let's add an external link to the UW website. This is as simple as adding 
 
 Now we have a button that opens the UW website!
 
-<img src="../assets/img/example_widget_link.png" style="width: 250px;">
+<img src="../assets/img/example_widget_link.png" style="max-width: 250px;">
 
 What if our user gets bored of seeing the cherry blossoms everyday? Let's make it so they can change that image!
 

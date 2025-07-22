@@ -100,7 +100,7 @@ For example,
 
 creates a widget like so
 
-<img src="../assets/img/example_openurl.png" style="width: 250px;">
+<img src="../assets/img/example_openurl.png" style="max-width: 250px;">
 
 where the button in the top-right opens to https://www.google.com.
 
@@ -126,7 +126,7 @@ The `editMenu` snippet looks like the following:
 
 The above creates a widget with the following edit menu, which is displayed after clicking on the edit icon (the pencil).
 
-<img src="../assets/img/example_edit_menu.png" style="width: 250px;">
+<img src="../assets/img/example_edit_menu.png" style="max-width: 250px;">
 
 ## Custom Buttons
 
@@ -150,7 +150,7 @@ For example, in our `todo` widget, we include a *refresh button* to allows users
 
 The above creates a button like so:
 
-<img src="../assets/img/example_button.png" style="width: 250px;">
+<img src="../assets/img/example_button.png" style="max-width: 250px;">
 
 ## Reacting to Widget Size
 
