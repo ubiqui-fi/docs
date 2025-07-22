@@ -30,3 +30,8 @@ just_the_docs:
       name: New Tab
     website:
       name: Website
+
+callouts:
+  info:
+    title: Info
+    color: blue

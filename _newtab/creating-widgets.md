@@ -36,9 +36,9 @@ Then, import and add the `Widget` component. Access your widget's `UID` from `$p
 </Widget>
 ```
 
-There are many more properties you can set on the Widget component. See [The Widget Component](./the-widget-component.html) for more information.
+There are many more properties you can set on the Widget component. See [The Widget Component](./the-widget-component) for more information.
 
-Like normal Svelte, if you want to have your widget react to changes in variable state, you need to declare them with `$state()`. However, using `$state` will not save variable state across sessions. To do that, see [Data Management](./data-management.html).
+Like normal Svelte, if you want to have your widget react to changes in variable state, you need to declare them with `$state()`. However, using `$state` will not save variable state across sessions. To do that, see [Data Management](./data-management).
 
 ## Register your widget
 
