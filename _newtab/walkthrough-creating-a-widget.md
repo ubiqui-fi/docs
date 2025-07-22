@@ -474,3 +474,7 @@ We repeat similarly for `uw-medium.svg`.
 Now when we build, we see we have a skeleton appear for our UW widget when we go to arrange it! And it react to our themes.
 
 <img src="../assets/img/example_skeleton.png">
+
+And just like that, we've created a complete widget!
+
+<img src="../assets/img/example_complete_widget.png">
