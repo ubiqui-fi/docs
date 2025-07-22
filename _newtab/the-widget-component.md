@@ -100,7 +100,7 @@ For example,
 
 creates a widget like so
 
-<img src="../assets/img/example_openurl.png">
+<img src="../assets/img/example_openurl.png" style="width: 250px;">
 
 where the button in the top-right opens to https://www.google.com.
 
@@ -126,7 +126,7 @@ The `editMenu` snippet looks like the following:
 
 The above creates a widget with the following edit menu, which is displayed after clicking on the edit icon (the pencil).
 
-<img src="../assets/img/example_edit_menu.png">
+<img src="../assets/img/example_edit_menu.png" style="width: 250px;">
 
 ## Custom Buttons
 
@@ -150,4 +150,24 @@ For example, in our `todo` widget, we include a *refresh button* to allows users
 
 The above creates a button like so:
 
-<img src="../assets/img/example_button.png">
+<img src="../assets/img/example_button.png" style="width: 250px;">
+
+## Reacting to Widget Size
+
+If your widget has multiple sizes, you may want it to display different content at its varying sizes. Doing so is a little janky at the moment, unfortunately, but is easily achieved.
+
+Simply import the `getWidget` method, then use it like so:
+
+```svelte
+// Script up here
+
+<Widget {UID} title="demo">
+    {#if getWidget(UID).w == 1}
+        // The widget must be small
+    {:else if getWidget(UID).h == 1}
+        // The widget must be medium
+    {:else}
+        // The widget must be large
+    {/if}
+</Widget>
+```
