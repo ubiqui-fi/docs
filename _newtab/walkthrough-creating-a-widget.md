@@ -453,7 +453,7 @@ Next, we need to slightly modify our svg files in a text editor. We'll first add
 
 For `uw-small.svg`, it goes from
 
-```svg
+```
 <svg width="405" height="526" viewBox="0 0 405 526" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="154" y="52" width="100" height="65" rx="6" fill="black" fill-opacity="0.1"/>
 <rect x="50" y="129" width="306" height="49" rx="6" fill="black" fill-opacity="0.1"/>
@@ -462,7 +462,7 @@ For `uw-small.svg`, it goes from
 
 to
 
-```svg
+```
 <svg width="405" height="526" viewBox="0 0 405 526" fill="none" xmlns="http://www.w3.org/2000/svg" id="skeleton">
 <rect x="154" y="52" width="100" height="65" rx="6" fill="var(--color)" fill-opacity="0.1"/>
 <rect x="50" y="129" width="306" height="49" rx="6" fill="var(--color)" fill-opacity="0.1"/>
